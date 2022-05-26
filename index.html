@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Primary Meta Tags -->
+    <title>Portfolio</title>
+    <meta name="title" content="Portfolio">
+    <meta name="description" content="Portfolio">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://antongolovachuk.github.io/">
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Portfolio">
+    <meta property="og:image" content="">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://antongolovachuk.github.io/">
+    <meta property="twitter:title" content="Portfolio">
+    <meta property="twitter:description" content="Portfolio">
+    <meta property="twitter:image" content="">
+
+    <link rel="stylesheet" href="/fonts-6/css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <aside class="sidepanel">
+          <a href="/" class="sidepanel__link"><i class="fa-brands fa-facebook-square"></i></a>
+          <a href="/" class="sidepanel__link"><i class="fa-brands fa-instagram"></i></a>
+          <a href="/" class="sidepanel__link"><i class="fa-brands fa-github"></i></a>
+          <div class="sidepanel__divider"></div>
+          <div class="sidepanel__text"><span>Social networks</span></div>
+    </aside>
+
+    <div class="menu">
+        <div class="menu__block">
+            <div class="menu__close">&times;</div>
+            
+            <nav>
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="/">About me</a></li>
+                    <li class="menu__link"><a href="/">My experience</a></li>
+                    <li class="menu__link"><a href="/">My skills</a></li>
+                    <li class="menu__link"><a href="/">My works</a></li>
+                    <li class="menu__link"><a href="/">Price list</a></li>
+                    <li class="menu__link"><a href="/">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="menu__social">
+                <a href=""><i class="fa-brands fa-facebook-square"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="menu__overlay"></div>
+    </div>
+
+    <section class="promo">
+        <div class="hamburger">
+            <span></span>
+            <span class="long"></span>
+            <span></span>
+        </div>
+        <div class="container">
+            <div class="title title_fz16 promo__subtitle">My name is Anton</div>
+            <h1 class="title title_48 promo__title">I am a web-developer from Ukraine</h1>
+
+            <div class="promo__btns">
+                <a href="/" class="promo__link btn">Portfolio</a>
+                <a href="/" class="promo__link">About me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__photo">
+                    <picture>
+                        <source media="(max-width: 576px)" srcset="/img/Photo_min.jpg">
+                        <source media="(min-width: 577px" srcset="/img/Photo.jpg">
+                        <img src="/img/Photo.jpg" alt="photo">
+                    </picture>
+                </div>
+                <div class="about__descr">
+                    <h2 class="title title_fz16 about__title">About me</h2>
+                    <div class="title title_fz36 about__subtitle">My name is Anton</div>
+                    <div class="divider"></div>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="about__skills">
+                    <div class="about__skills_item">
+                        <div class="about__skills_circle"><img src="/icons/about/webdevelopment.svg" alt="web-dev"></div>
+                        <div>
+                            <div class="title title_fz14">
+                                Web development
+                            </div>
+                            <div class="about__skills_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__skills_item">
+                        <div class="about__skills_circle"><img src="/icons/about/Mobiledev.svg" alt="mobile-dev"></div>
+                        <div>
+                            <div class="title title_fz14">
+                                Application development
+                            </div>
+                            <div class="about__skills_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__skills_item">
+                        <div class="about__skills_circle"><img src="/icons/about/Design.svg" alt="design"></div>
+                        <div>
+                            <div class="title title_fz14">
+                                UI/UX Design
+                            </div>
+                            <div class="about__skills_text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="resume">
+        <div class="container">
+            <h2 class="title title_fz16 mid__title">Experience</h2>
+            <div class="title title_fz36 mid__subtitle">In what I will be useful</div>
+            <div class="divider"></div>
+
+            <div class="resume__wrapper">
+                <div class="resume__column">
+                    <h3 class="title title_fz18 resume__column_title">Education</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item_head">
+                                    <div class="resume__item_icon">
+                                        <img src="/icons/resume/University.svg" alt="university">
+                                    </div>
+                                    <h4 class="title title_fz14">Sokyryany Gymnasium</h4>
+                                    <div class="resume__item_location">Full Secondary Education | Ukrain</div>
+                                </div>
+                                <div class="resume__item_body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                </div>
+                            </div>
+                            <div class="resume__item">
+                                <div class="resume__item_head">
+                                    <div class="resume__item_icon">
+                                        <img src="/icons/resume/Courses.svg" alt="courses">
+                                    </div>
+                                    <h4 class="title title_fz14">Udemy</h4>
+                                    <div class="resume__item_location">Web development courses</div>
+                                </div>
+                                <div class="resume__item_body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="resume__column">
+                    <h3 class="title title_fz18 resume__column_title">
+                        Work experience</h3>
+                    <ul>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item_head">
+                                    <div class="resume__item_icon">
+                                        <img src="/icons/resume/Developer.svg" alt="developer">
+                                    </div>
+                                    <h4 class="title title_fz14">Front End Developer</h4>
+                                    <div class="resume__item_location">Commercial experience</div>
+                                </div>
+                                <div class="resume__item_body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resume__item">
+                                <div class="resume__item_head">
+                                    <div class="resume__item_icon">
+                                        <img src="/icons/resume/designer.svg" alt="developer">
+                                    </div>
+                                    <h4 class="title title_fz14">UI/UX Designer</h4>
+                                    <div class="resume__item_location">Commercial experience</div>
+                                </div>
+                                <div class="resume__item_body">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2 class="title title_fz16 skills__title mid__title">Skills</h2>
+            <div class="title title_fz36 skills__subtitle mid__subtitle">What I use at work</div>
+            <div class="divider"></div>
+
+            <div class="skills__wrapper">
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/html5.svg" alt="html5"></div>
+                    <div class="skills__title title title_fz16">HTML5</div>
+                    <div class="skills__descr">It creates the structure of your site or application, and this version will allow me to create a more SEO optimized structure of your product</div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/css3.svg" alt="css"></div>
+                    <div class="skills__title title title_fz16">CSS3</div>
+                    <div class="skills__descr">This style language will allow me to create any kind of your site or program. It all depends on your imagination</div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/JS.svg" alt="javavscript"></div>
+                    <div class="skills__title title title_fz16">Java Script</div>
+                    <div class="skills__descr">This programming language will allow me to create an interactive. Slides, windows, tooltips, tabs, retrieving data from the server and more</div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/Jquery.svg" alt="jquery"></div>
+                    <div class="skills__title title title_fz16">Jquery</div>
+                    <div class="skills__descr">The library will speed up development. We will not add it to the project without the need, but the skills to work with it are present</div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/React.svg" alt="react"></div>
+                    <div class="skills__title title title_fz16">React</div>
+                    <div class="skills__descr">This library will allow you to create web applications. We can create the most interactive product just for your goals</div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/Node.js.svg" alt="modejs"></div>
+                    <div class="skills__title title title_fz16">Node.js</div>
+                    <div class="skills__descr">This platform will allow you to create back end for your product, it will perform actions that the user does not know</div>
+                </div>
+
+                <div class="skills__item">
+                    <div class="skills__img"><img src="/icons/skills/Mongo.db.svg" alt="mongodb"></div>
+                    <div class="skills__title title title_fz16">Mongo.db</div>
+                    <div class="skills__descr">This is a non-relational database that will store data from your site or application</div>
+                </div>
+            </div>
+
+            <div class="skills__ratings">
+                <div class="skills__ratings__wrapper">
+                    <div class="skills__ratings__item">
+                        <div class="skills__ratings__percentage">
+                            <div class="skills__ratings__skill title title_fz14">Сreating sites</div>
+                            <div class="skills__ratings__count title title_fz14">100%</div>
+                        </div>
+                        <div class="skills__ratings__bar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings__item">
+                        <div class="skills__ratings__percentage">
+                            <div class="skills__ratings__skill title title_fz14">Creating applications</div>
+                            <div class="skills__ratings__count title title_fz14">85%</div>
+                        </div>
+                        <div class="skills__ratings__bar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings__item">
+                        <div class="skills__ratings__percentage">
+                            <div class="skills__ratings__skill title title_fz14">Working with data</div>
+                            <div class="skills__ratings__count title title_fz14">90%</div>
+                        </div>
+                        <div class="skills__ratings__bar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings__item">
+                        <div class="skills__ratings__percentage">
+                            <div class="skills__ratings__skill title title_fz14">Creativity</div>
+                            <div class="skills__ratings__count title title_fz14">75%</div>
+                        </div>
+                        <div class="skills__ratings__bar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings__item">
+                        <div class="skills__ratings__percentage">
+                            <div class="skills__ratings__skill title title_fz14">Creating a design</div>
+                            <div class="skills__ratings__count title title_fz14">90%</div>
+                        </div>
+                        <div class="skills__ratings__bar">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="skills__ratings__item">
+                        <div class="skills__ratings__percentage">
+                            <div class="skills__ratings__skill title title_fz14">Soft skills</div>
+                            <div class="skills__ratings__count title title_fz14">95%</div>
+                        </div>
+                        <div class="skills__ratings__bar">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="title title_fz16 portfolio__title mid__title">Portfolio</h2>
+            <div class="title title_fz36 portfolio__subtitle mid__subtitle">My works</div>
+            <div class="divider"></div>
+
+            <div class="portfolio__wrapper">
+                    <a href="/" class="portfolio__item">
+                        <img src="img/works/uber.jpg" alt="uber">
+                    </a>
+                    <a href="/" class="portfolio__item">
+                        <img src="img/works/pulse.jpg" alt="pulse">
+                    </a>
+                    <a href="/" class="portfolio__item">
+                        <img src="img/works/bread.jpg" alt="bread">
+                    </a>
+                    <a href="/" class="portfolio__item vertical">
+                        <img src="img/works/plans.jpg" alt="plans">
+                    </a>
+                    <a href="/" class="portfolio__item">
+                        <img src="img/works/ipad.jpg" alt="ipad">
+                    </a>
+                    <a href="/" class="portfolio__item horizontal">
+                        <img src="img/works/mac.jpg" alt="mac">
+                    </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="price">
+        <div class="container">
+            <h2 class="title title_fz16 price__title mid__title">Price list</h2>
+            <div class="divider"></div>
+
+            <div class="price__wrapper">
+                <div class="price__column price__column_top">
+                    <div class="price__service">
+                        <div class="price__item">
+                            <div class="price__work title title_fz16">Landing page</div>
+                            <div class="price__count title title_fz16">Negotiable</div>
+                        </div>
+                        <div class="price__descr title title_fz14">
+                            One-page site for the presentation of goods/services/...
+                        </div>
+                    </div>
+                    <div class="price__service">
+                        <div class="price__item">
+                            <div class="price__work title title_fz16">Corporate site</div>
+                            <div class="price__count title title_fz16">Negotiable</div>
+                        </div>
+                        <div class="price__descr title title_fz14">
+                            A site for your business or company
+                        </div>
+                    </div>
+                    <div class="price__service">
+                        <div class="price__item">
+                            <div class="price__work title title_fz16">Internet shop</div>
+                            <div class="price__count title title_fz16">Negotiable</div>
+                        </div>
+                        <div class="price__descr title title_fz14">
+                            Tool for your online sales
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="price__column">
+                    <div class="price__service">
+                        <div class="price__item">
+                            <div class="price__work title title_fz16">Web application
+                            </div>
+                            <div class="price__count title title_fz16">Negotiable</div>
+                        </div>
+                        <div class="price__descr title title_fz14">
+                            Browser application for more convenience
+                        </div>
+                    </div>
+                    <div class="price__service">
+                        <div class="price__item">
+                            <div class="price__work title title_fz16">Android/IOS Application</div>
+                            <div class="price__count title title_fz16">Negotiable</div>
+                        </div>
+                        <div class="price__descr title title_fz14">
+                            A site for your business or company
+                        </div>
+                    </div>
+                    <div class="price__service">
+                        <div class="price__item">
+                            <div class="price__work title title_fz16">Design</div>
+                            <div class="price__count title title_fz16">Negotiable</div>
+                        </div>
+                        <div class="price__descr title title_fz14">
+                            I will create a design for your site/application
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contacts">
+        <div class="container">
+            <div class="contacts__wrapper">
+                <div class="contacts__photo">
+                    <img src="/img/Photo.jpg" alt="photo">
+                </div>
+                <div class="contacts__descr">
+                    <h2 class="title title_fz16 contacts__title">Contacts</h2>
+                    <div class="title title_fz36 contacts__subtitle">Contact me</div>
+                    <div class="divider"></div>
+                    <div class="contacts__text title title_fz14">In any way convenient for you</div>
+                    <div class="contacts__social">
+                        <a href="/" class="contacts__item"><i class="fa-brands fa-facebook-square"></i></a>
+                        <a href="/" class="contacts__item"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="/" class="contacts__item"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="contacts__text title title_fz14">Or leave your details and I will write to you</div>
+
+                    <form action="#" class="contacts__form">
+                        <div class="contacts__input">
+                            <input required name="name" id="name" type="text">
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="contacts__input">
+                            <input required name="email" id="email" type="email">
+                            <label for="email">Your email</label>
+                        </div>
+                        <div class="contacts__textarea">
+                            <textarea name="text" id="text"></textarea>
+                            <label for="text">Your message</label>
+                        </div>
+
+                        <div class="contacts__triggers">
+                            <button class="contacts__btn btn">Send message</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>I accept the<a href="/policy/policy.html">privacy policy</a></span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </section> 
+
+    <script src="js/script.js"></script>
+</body>
+</html>
